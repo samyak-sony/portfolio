@@ -46,7 +46,7 @@ const Hero = ( ) => {
                  Samyak Jain here.
                 </u>
             </Typography>
-            <Typography variant={matches?"body1":"body2"} sx={{margin:"1.5rem"}}>Based in New Delhi. I'm a final year back-end developer passionate about building accessible web apps that users love.</Typography>
+            <Typography variant={matches?"body1":"body2"} sx={{margin:"1.5rem"}}>Based in New Delhi. I am a final year back-end developer passionate about building accessible web apps that users love.</Typography>
             
         </Box>
     </Box>)
