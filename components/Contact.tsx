@@ -87,7 +87,7 @@ const Contact = () => {
 
                     <Box sx={{width:matches?"auto":"27.8125rem"}}>
                         <Typography variant="h2" sx={{fontSize:matches?"auto":"5.5rem"}}>Contact</Typography>
-                        <Typography variant={matches?"body1":"body2"}>I would love to hear about anything you have to say.Please fill in the form and I&apos;ll get back to you as soon as possible.</Typography>
+                        <Typography variant={matches?"body1":"body2"}>I would love to hear about anything you have to say.Please fill in the form and I will get back to you as soon as possible.</Typography>
                     </Box>
                     <FormControl sx={{width:matches?"auto":"27.8125rem"}}
                     component="form"
