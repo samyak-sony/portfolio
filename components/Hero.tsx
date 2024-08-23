@@ -41,9 +41,9 @@ const Hero = ( ) => {
             marginTop:matches?"none":"8.0625rem"
             }}>
             <Typography variant="h2" sx={{fontSize:matches?"auto":"5.5rem"}}>
-                Nice To meet you! I am &nbsp;   
+                Nice To meet you! 
                 <u style={{textDecorationColor:COLORS.green,textUnderlineOffset:"0.5rem"}}>
-                Samyak Jain.
+                 Samyak Jain here.
                 </u>
             </Typography>
             <Typography variant={matches?"body1":"body2"} sx={{margin:"1.5rem"}}>Based in New Delhi. I'm a final year back-end developer passionate about building accessible web apps that users love.</Typography>
