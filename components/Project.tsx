@@ -20,7 +20,7 @@ const Project = ({image,skills,title,link}:{image:string,skills:string[],title:s
             <Typography variant="h4" sx={{margin:"1.25rem 0 0.5rem 0"}}>{title}</Typography>
             <Box sx={{display:"flex"}}>
                 {skills.map((skill)=>{
-                    return <Typography variant="body2" sx={{margin:"0 1.125rem 1.125rem 0"}}>{skill}</Typography>
+                    return <Typography variant="body2" sx={{margin:"0 1.125rem 1.125rem 0"}} key={skill}>{skill}</Typography>
                 })}
             </Box>
             <Button link={link} sx={{marginRight:"1.875rem"}}> View Repository</Button>
